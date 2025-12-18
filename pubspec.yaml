@@ -1,0 +1,37 @@
+name: taskweave
+description: A task management app with AI assistant
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.1
+  http: ^1.1.0
+  flutter_markdown: ^0.6.18
+  flutter_spinkit: ^5.2.0
+  intl: ^0.18.1
+  flutter_dotenv: ^5.1.0
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.10+1
+  shimmer: ^3.0.0
+  flutter_riverpod: ^2.4.9
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  google_sign_in: ^6.1.6
+  cloud_firestore: ^4.13.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - .env
